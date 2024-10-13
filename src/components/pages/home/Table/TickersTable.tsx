@@ -10,7 +10,6 @@ interface TickerTableProps {
 }
 
 const TickersTable: React.FC<TickerTableProps> = ({ data, error}) => {
-    console.log(error);
     const getHeader = () => (
     <>
         <View style={styles.tableHeader}>
